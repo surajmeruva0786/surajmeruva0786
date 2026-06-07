@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160" fill="none" role="img" aria-label="Let's build AI that explains itself">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B0E14"/>
+      <stop offset="1" stop-color="#080A0F"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="b"><feGaussianBlur stdDeviation="2.5"/></filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="160" rx="22" fill="url(#bg)"/>
+  <rect x="1.25" y="1.25" width="1197.5" height="157.5" rx="21" fill="none" stroke="#1B2735" stroke-width="1.5"/>
+
+  <!-- signal rail -->
+  <rect x="80" y="92" width="1040" height="1.6" fill="url(#line)"/>
+  <g>
+    <circle cx="80" cy="92.8" r="3.5" fill="#22D3EE" filter="url(#b)"/>
+    <circle cx="80" cy="92.8" r="2" fill="#E6FBFF"/>
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M0 0 H1040"/>
+  </g>
+
+  <text x="600" y="66" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="25" font-weight="700" letter-spacing="3" fill="url(#acc)">LET'S BUILD AI THAT EXPLAINS ITSELF</text>
+  <text x="600" y="128" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" letter-spacing="3.5" fill="#7C8EA3">// thanks for orbiting by &#183; github.com/surajmeruva0786</text>
+
+  <circle cx="600" cy="92.8" r="5" fill="none" stroke="#818CF8" stroke-opacity="0.6">
+    <animate attributeName="r" values="5;16;5" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

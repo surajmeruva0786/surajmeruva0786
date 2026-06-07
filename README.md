@@ -1,400 +1,229 @@
+<!--
+  ░░ surajmeruva0786 ░░ "The Glass Box" profile
+  Bespoke animated SVGs live in /assets and render after the first push to main.
+  Light/dark adaptive via <picture>. Stat cards use community mirrors (canonical URLs kept in comments).
+-->
+
 <div align="center">
 
-<!-- ===================== ANIMATED TYPING HEADER ===================== -->
+<!-- ══════════════ ANIMATED HEADER (hand-coded · light + dark) ══════════════ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/surajmeruva0786/surajmeruva0786/main/assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/surajmeruva0786/surajmeruva0786/main/assets/header-light.svg">
+  <img src="https://raw.githubusercontent.com/surajmeruva0786/surajmeruva0786/main/assets/header-dark.svg" width="100%" alt="Suraj Meruva — Explainable AI · Applied ML · Full-Stack Systems">
+</picture>
+
+<!-- ══════════════ STATUS TICKER ══════════════ -->
 <a href="https://github.com/surajmeruva0786">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=32&duration=3000&pause=900&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=950&height=140&lines=Hi%2C+I'm+Suraj+Meruva+%F0%9F%91%8B;Data+Science+%26+AI+%40+IIIT+Naya+Raipur;Explainable+AI+%7C+Applied+ML+%7C+Full-Stack;I+build+research-grade+AI+that+ships+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1000&color=22D3EE&center=true&vCenter=true&width=720&height=34&lines=%24+suraj+--now+%E2%86%92+patent-pending+OCR+confidence+engine;%24+suraj+--exploring+%E2%86%92+multi-agent+systems+%26+LLM+red-teaming;%24+suraj+--ask-me+%E2%86%92+explainable+AI+%26+applied+ML;%24+suraj+--mission+%E2%86%92+turn+black-box+models+into+glass+boxes" alt="status" />
 </a>
 
-<!-- ===================== ORBITAL WAVE BANNER ===================== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0E14,40:0E7490,100:00D9FF&height=200&section=header&text=Welcome%20to%20My%20Orbit&fontSize=44&fontColor=ffffff&fontAlignY=34&animation=fadeIn&desc=Explainable%2C%20research-grade%20AI%20for%20the%20real%20world&descSize=18&descAlignY=56" width="100%"/>
+<!-- ══════════════ CONTROL PANEL (links + honest stats) ══════════════ -->
+<p>
+  <a href="https://github.com/surajmeruva0786"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=22D3EE" /></a>
+  <a href="https://www.linkedin.com/in/suraj-meruva/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=38BDF8" /></a>
+  <a href="https://www.kaggle.com/meruvakodandasuraj"><img src="https://img.shields.io/badge/Kaggle-0D1117?style=for-the-badge&logo=kaggle&logoColor=20BEFF" /></a>
+  <a href="https://x.com/SurajMeruva786"><img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white" /></a>
+  <a href="mailto:meruva24102@iiitnr.edu.in"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" /></a>
+</p>
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=surajmeruva0786&style=flat-square&color=22D3EE&label=ORBIT+VISITS" />
+  <img src="https://img.shields.io/badge/DSAI-IIIT_Naya_Raipur_'28-818CF8?style=flat-square&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/focus-Explainable_AI-22D3EE?style=flat-square&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/mission_domains-7-38BDF8?style=flat-square&labelColor=0D1117" />
+</p>
 
 </div>
 
 ---
 
-<div align="center">
+## `// 00 · MANIFEST`
 
-### 🛰️ **Data Science & AI Engineer · Researcher · Full-Stack Builder**
+```yaml
+# ~/.config/suraj.yaml
+identity:
+  name:   Suraj Meruva
+  alias:  meruvakodandasuraj                       # kaggle
+  role:   AI/ML Engineer · Researcher · Full-Stack Developer
+  base:   IIIT Naya Raipur — B.Tech, Data Science & AI (2024 → 2028)
 
-**Explainable AI** · **Applied ML for High-Stakes Domains** · **Multi-Agent & LLM Systems**
+thesis: >
+  I don't ship black boxes. Every model I build explains itself —
+  SHAP, Grad-CAM, confidence maps — because high-stakes domains
+  can't trust what they can't audit.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suraj-meruva/)
-[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00D9FF)](https://github.com/surajmeruva0786)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/meruvakodandasuraj)
-[![X](https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white)](https://x.com/SurajMeruva786)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:meruva24102@iiitnr.edu.in)
+building:
+  applied_ml:  [ biomedical-signals(ECG·PPG·EEG), predictive-maintenance(RUL), sonar/vibration ]
+  llm_agents:  [ multi-agent-systems, PEFT/LoRA, RAG, document-intelligence(OCR) ]
+  full_stack:  [ react, next.js, fastapi, "kafka · timescaledb · redis" ]
 
-![Profile Views](https://komarev.com/ghpvc/?username=surajmeruva0786&color=00D9FF&style=for-the-badge&label=PROFILE+VIEWS)
-[![GitHub followers](https://img.shields.io/github/followers/surajmeruva0786?label=Follow&style=for-the-badge&color=6D5DF6&logo=github)](https://github.com/surajmeruva0786)
-
-</div>
-
----
-
-<div align="center">
-
-## 🧬 **Who Am I?**
-
-</div>
-
-```python
-class SurajMeruva:
-    """Data Science & AI undergrad who ships explainable, production-grade ML."""
-
-    def __init__(self):
-        self.role      = "AI/ML Engineer | Researcher | Full-Stack Developer"
-        self.education = "B.Tech, Data Science & AI @ IIIT Naya Raipur (2024 – 2028)"
-        self.focus     = "Research-grade AI for high-stakes, real-world domains"
-        self.signature = "Every prediction ships with an explanation — SHAP · Grad-CAM"
-
-        self.building = {
-            "applied_ml": ["Biomedical Signals (ECG · PPG · EEG)",
-                           "Predictive Maintenance & RUL Estimation",
-                           "Passive Sonar / Vibration / Time-Frequency"],
-            "llm_agents": ["Multi-Agent Systems", "PEFT / LoRA Fine-Tuning",
-                           "RAG", "Document Intelligence & OCR"],
-            "full_stack": ["React · Next.js · TypeScript", "FastAPI · Node.js",
-                           "Kafka · TimescaleDB · Redis"],
-            "domains":    ["Defence (DRDO)", "Energy (NTPC)", "Naval (NSTL)",
-                           "Law Enforcement", "GovTech & Civic Tech"],
-        }
-
-        self.currently = "Patent-pending OCR confidence pipeline (FileTract) "\
-                         "+ multi-agent quant-finance platform (UMQ-Agent)"
-        self.open_to   = "AI/ML Research & SWE Internships · Open-Source · Collaborations"
-
-    def say_hi(self):
-        return "Let's build AI that explains itself. 🚀"
+domains:  [ defence(DRDO), energy(NTPC), naval(NSTL), law-enforcement, govtech, fintech, healthtech ]
+now:      "patent-pending OCR confidence engine (FileTract) + multi-agent quant finance (UMQ-Agent)"
+open_to:  "AI/ML research & SWE internships · open-source · collaborations"
 ```
 
 ---
 
-<div align="center">
+## `// 01 · THE METHOD`
 
-## 🛠️ **Tech Arsenal**
+Most ML ships a number and asks you to trust it. I build the opposite: pipelines where **every prediction arrives with its receipts** — *which* feature, *which* frequency band, *which* pixel drove the call. That feedback loop doesn't just explain the model, it **audits and patches** it.
 
-### 🤖 AI / ML & Deep Learning
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-</p>
-
-### 🧠 Explainable AI · LLM & Agents
-<p>
-  <img src="https://img.shields.io/badge/SHAP-00D9FF?style=for-the-badge&logo=apacheecharts&logoColor=black" />
-  <img src="https://img.shields.io/badge/Grad--CAM-6D5DF6?style=for-the-badge&logo=probot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/PEFT_/_LoRA-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-</p>
-
-### 💻 Full-Stack & Mobile
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-</p>
-
-### ⚙️ Data Infra · Cloud · DevOps
-<p>
-  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
-  <img src="https://img.shields.io/badge/TimescaleDB-FDB515?style=for-the-badge&logo=timescale&logoColor=black" />
-  <img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-</p>
-
-</div>
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'JetBrains Mono, monospace','lineColor':'#6D5DF6','primaryColor':'#0D1117','primaryTextColor':'#E5ECF4','primaryBorderColor':'#22D3EE'}}}%%
+flowchart LR
+    A([📡 Raw Signals + Docs]):::in --> B[🧠 Applied ML / DL]:::ml
+    B --> C{{🔍 Explainability Layer<br/>SHAP · Grad-CAM · Confidence}}:::xai
+    C --> D[🪟 Glass-Box Decision]:::out
+    D --> E([🎯 High-Stakes Domains]):::dom
+    C -. audit + patch .-> B
+    classDef in  fill:#0B1620,stroke:#22D3EE,color:#CDE9F2;
+    classDef ml  fill:#0E1A12,stroke:#34D399,color:#D6F2E4;
+    classDef xai fill:#15111F,stroke:#818CF8,color:#E2DEF8,font-weight:bold;
+    classDef out fill:#101A26,stroke:#38BDF8,color:#D8EEFB;
+    classDef dom fill:#1A1320,stroke:#F472B6,color:#F6DCEC;
+```
 
 ---
 
-<div align="center">
+## `// 02 · FIELD NOTES`
 
-## 🚀 **Featured Projects**
+*Selected builds — most ship with explainability wired in.*
 
-<sub>Research-grade systems — most ship with built-in explainability (SHAP · Grad-CAM)</sub>
+#### 🪟 &nbsp;FileTract · *self-auditing OCR engine*
+> Turns degraded scans into structured data, then **scores its own certainty** field-by-field — and re-reads only the regions it doubts.
+>
+> `Python` · `OCR` · `Computer Vision` · `Patent-pending`
+> &nbsp;🔍 **Explains →** per-field confidence maps · adaptive re-OCR · confidence-weighted fusion
 
-</div>
+#### 🧠 &nbsp;AeroMind · *EEG cognitive-fatigue radar*
+> Reads an operator's brainwaves in real time to flag fatigue **before** it gets dangerous — built for pilots, drone operators & submariners *(DRDO / DIPAS domain)*.
+>
+> `PyTorch` · `MNE-Python` · `CapsuleNet + LSTM` · `XAI`
+> &nbsp;🔍 **Explains →** SHAP attributions painted onto a 2D scalp topography
 
-<table align="center">
-<tr>
-<td width="50%" valign="top">
+#### 📈 &nbsp;UMQ-Agent · *multi-agent quant-finance platform*
+> Autonomous agents stream live markets and surface **risk & fraud** in real time, on a clean microservice backbone.
+>
+> `Python` · `Multi-Agent` · `Kafka` · `TimescaleDB` · `Redis` · `React`
+> &nbsp;🔍 **Explains →** traceable agent decisions + live monitoring dashboard
 
-### 📄 FileTract
-**AI-Powered OCR · Patent-Pending Pipeline**
+#### 🪪 &nbsp;CSC Sahayak · *AI co-pilot for India's service centres* &nbsp;`⭐ most-forked`
+> A Chrome extension + desktop app that auto-fills government portals and cuts citizen application rejections — **bilingually**.
+>
+> `TypeScript` · `Python` · `LLM` · `Document-AI`
+> &nbsp;🔍 **Explains →** extraction backed by FileTract's confidence scoring
 
-- **Confidence-weighted OCR** with hierarchical field extraction
-- **Adaptive Re-OCR engine** driven by image-quality metrics
-- Spatial confidence maps via **Gaussian-kernel smoothing**
-- Confidence-weighted **result fusion** for degraded docs
-
-`Python` · `OCR` · `Computer Vision`
-
-</td>
-<td width="50%" valign="top">
-
-### 🪪 CSC Sahayak
-**AI Co-Pilot for India's Common Service Centres**
-
-- **Chrome extension** + React desktop app + dashboard
-- Document extraction & **form auto-fill** for gov portals
-- **Bilingual** AI assistance to cut application rejections
-- Powered by the FileTract extraction backend
-
-`TypeScript` · `Python` · `LLM` · ⭐ Most-forked
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📈 UMQ-Agent
-**Unified Multi-Agent Quant-Finance Platform**
-
-- **Microservice** architecture with autonomous agents
-- Real-time streaming via **Kafka · TimescaleDB · Redis**
-- ML-based **risk & fraud detection**
-- **React + Vite** live monitoring dashboard
-
-`Python` · `Multi-Agent` · `Kafka` · `Docker`
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 AeroMind
-**EEG Cognitive-Fatigue Detection for Aircrew**
-
-- **Capsule Network** (dynamic routing) + **LSTM**
-- Real-time mental-workload & fatigue prediction
-- **SHAP** attributions on a 2D scalp topography
-- Domain: pilots, drone operators *(DRDO / DIPAS)*
-
-`PyTorch` · `MNE-Python` · `XAI` · `EEG`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⚙️ TurboGuard
-**Predictive Maintenance & RUL Estimation**
-
-- Vibration-signal analysis for rotating machinery
-- **Bearing-fault detection** + fault-mode classification
-- **Remaining Useful Life** prediction before failure
-- SHAP-explained alerts · Domain: power plants *(NTPC)*
-
-`PyTorch` · `scikit-learn` · `Signal Processing`
-
-</td>
-<td width="50%" valign="top">
-
-### 🌊 HydroSense
-**Explainable Passive-Sonar Vessel Classification**
-
-- Classifies vessels from **underwater radiated noise**
-- **Time–frequency** representations + CNN
-- Per-prediction **Grad-CAM + SHAP** explanations
-- Domain: naval acoustics *(NSTL)*
-
-`PyTorch` · `TensorFlow` · `XAI` · `Sonar`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🛡️ CG Police Platform
-**Cybercrime Detection & Intelligence**
-
-- **Deepfake** video detection + malicious-URL scanning
-- Document intelligence & news monitoring
-- **AI chatbot** for a unified law-enforcement console
-- Built for the **Chhattisgarh Police Department**
-
-`Full-Stack` · `Deepfake AI` · `FastAPI`
-
-</td>
-<td width="50%" valign="top">
-
-### 🔍 XAI-DBMS
-**Explainable, LLM-Powered ML Platform**
-
-- Automated analysis over your database, end-to-end
-- **Transparent predictions** with full explainability
-- **FastAPI + React** intelligent data workbench
-- Natural-language → insight, with the *why*
-
-`Python` · `FastAPI` · `React` · `LLM`
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-**More:** 🫀 ECG/PPG Heart-Attack Prediction · 🧪 PEFT Cross-Domain Transfer (Medical ↔ Legal) · 🐯 Jungle Safari Naya Raipur (Orbis Systems) · 🧠 nanoGPT from Scratch · ♻️ DAO Treasury Wallet
-
-</div>
-
----
-
-<div align="center">
-
-## 🌐 **Real-World Domains I Build For**
-
-</div>
-
-<table align="center">
-<tr>
-<th>Domain</th><th>Project</th><th>What It Does</th>
-</tr>
-<tr><td>🛡️ Defence — Aircrew</td><td><b>AeroMind</b></td><td>Real-time EEG cognitive-fatigue & workload monitoring</td></tr>
-<tr><td>⚡ Energy — Power Plants</td><td><b>TurboGuard</b></td><td>Vibration-based predictive maintenance & RUL</td></tr>
-<tr><td>🌊 Naval — Sonar</td><td><b>HydroSense</b></td><td>Explainable passive-sonar vessel classification</td></tr>
-<tr><td>👮 Law Enforcement</td><td><b>CG Police</b></td><td>Deepfake + cybercrime intelligence platform</td></tr>
-<tr><td>🏛️ GovTech — Citizens</td><td><b>CSC Sahayak</b></td><td>AI co-pilot for Common Service Centre operators</td></tr>
-<tr><td>💸 FinTech — Markets</td><td><b>UMQ-Agent</b></td><td>Multi-agent quant-finance risk & fraud intelligence</td></tr>
-<tr><td>🫀 HealthTech — Signals</td><td><b>ECG/PPG</b></td><td>Heart-attack prediction from physiological signals</td></tr>
-</table>
-
----
-
-<div align="center">
-
-## 📊 **GitHub Orbit — Stats & Activity**
-
-<table>
-<tr>
-<td width="50%" align="center">
-
-<!-- If a card ever shows blank, the upstream service is rate-limited; swap to the canonical URL on the next line.
-<img src="https://github-readme-stats.vercel.app/api?username=surajmeruva0786&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=00D9FF&icon_color=6D5DF6&text_color=c9d1d9&bg_color=0D1117" width="100%" /> -->
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=surajmeruva0786&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=00D9FF&icon_color=6D5DF6&text_color=c9d1d9&bg_color=0D1117" width="100%" />
-
-</td>
-<td width="50%" align="center">
-
-<img src="https://streak-stats.demolab.com/?user=surajmeruva0786&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=6D5DF6&currStreakLabel=00D9FF&sideLabels=c9d1d9&dates=8b949e" width="100%" />
-
-</td>
-</tr>
-</table>
-
-<!-- Canonical (use when the main service is up): https://github-readme-stats.vercel.app/api/top-langs/?username=surajmeruva0786&layout=compact&langs_count=10&hide_border=true&title_color=00D9FF&text_color=c9d1d9&bg_color=0D1117&hide=jupyter%20notebook -->
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=surajmeruva0786&layout=compact&langs_count=10&hide_border=true&title_color=00D9FF&text_color=c9d1d9&bg_color=0D1117&hide=jupyter%20notebook" width="60%" />
+<details>
+<summary><b>&nbsp;▸ &nbsp;more builds in the hangar</b></summary>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=surajmeruva0786&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=00D9FF&line=6D5DF6&point=ffffff&custom_title=Contribution%20Orbit" width="100%" />
+| Project | Domain | What it does |
+|---|---|---|
+| **TurboGuard** | ⚡ Energy *(NTPC)* | Vibration-based predictive maintenance + Remaining-Useful-Life, SHAP-explained |
+| **HydroSense** | 🌊 Naval *(NSTL)* | Explainable passive-sonar vessel classification (Grad-CAM + SHAP) |
+| **CG Police** | 👮 Law Enforcement | Deepfake detection + malicious-URL + cyber-intel platform |
+| **XAI-DBMS** | 🗄️ Data | LLM-powered ML workbench with transparent, auditable predictions |
+| **PEFT Research** | 🧪 LLM | Cross-domain transfer (medical ↔ legal) at 95%+ fewer trained params |
+| **ECG/PPG** | 🫀 HealthTech | Heart-attack prediction from physiological signals |
+| **Jungle Safari** | 🐯 Orbis Systems | Official website + mobile app for Jungle Safari, Naya Raipur |
+| **nanoGPT** | 🧠 Foundations | A GPT built from scratch, the Karpathy way |
+
+</details>
+
+---
+
+## `// 03 · MISSION DOMAINS`
+
+<div align="center">
+
+| Domain | Build | Real-world stake |
+|:--|:--|:--|
+| 🛡️ **Defence — Aircrew** | `AeroMind` | Catch cognitive fatigue before a fatal mistake |
+| ⚡ **Energy — Power Plants** | `TurboGuard` | Predict machine failure before it happens |
+| 🌊 **Naval — Acoustics** | `HydroSense` | Identify vessels from underwater sound |
+| 👮 **Law Enforcement** | `CG Police` | Fight deepfakes & cybercrime at scale |
+| 🏛️ **GovTech — Citizens** | `CSC Sahayak` | Fewer rejected applications, faster service |
+| 💸 **FinTech — Markets** | `UMQ-Agent` | Real-time risk & fraud intelligence |
+| 🫀 **HealthTech — Signals** | `ECG/PPG` | Earlier warning from heart signals |
 
 </div>
 
 ---
 
+## `// 04 · INSTRUMENTS`
+
 <div align="center">
 
-## 🏆 **Trophy Cabinet**
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv,fastapi,react,nextjs,ts,nodejs,tailwind,docker,kafka,redis,postgres,mongodb,git,vscode,figma,vercel&theme=dark&perline=10">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv,fastapi,react,nextjs,ts,nodejs,tailwind,docker,kafka,redis,postgres,mongodb,git,vscode,figma,vercel&theme=light&perline=10">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv,fastapi,react,nextjs,ts,nodejs,tailwind,docker,kafka,redis,postgres,mongodb,git,vscode,figma,vercel&theme=dark&perline=10" alt="tech stack" />
+</picture>
 
-<!-- Canonical (use when the main service is up): https://github-profile-trophy.vercel.app/?username=surajmeruva0786&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1&column=7 -->
-<img src="https://github-profile-trophy-orcin.vercel.app/?username=surajmeruva0786&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="trophies" />
+<sub>**+ explainability:** SHAP · Grad-CAM · LIME &nbsp;|&nbsp; **+ LLM/agents:** Hugging Face · LangChain · PEFT/LoRA &nbsp;|&nbsp; **+ data:** Pandas · NumPy · SciPy</sub>
 
 </div>
 
 ---
 
+## `// 05 · TELEMETRY`
+
 <div align="center">
 
-## 🐍 **Watch the Snake Eat My Contributions**
+<!-- canonical (use when up): https://github-readme-stats.vercel.app/api?username=surajmeruva0786 -->
+<img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=surajmeruva0786&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=22D3EE&icon_color=818CF8&text_color=9FB1C4&bg_color=0D1117" />
+<img height="170" src="https://streak-stats.demolab.com/?user=surajmeruva0786&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=818CF8&currStreakLabel=22D3EE&sideLabels=9FB1C4&dates=64748B" />
 
-<img src="https://raw.githubusercontent.com/surajmeruva0786/surajmeruva0786/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+<br/>
+
+<!-- canonical (use when up): https://github-readme-stats.vercel.app/api/top-langs/?username=surajmeruva0786 -->
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=surajmeruva0786&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=9FB1C4&bg_color=0D1117&hide=jupyter%20notebook" width="46%" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=surajmeruva0786&theme=react-dark&bg_color=0D1117&hide_border=true&area=true&color=22D3EE&line=818CF8&point=FFFFFF&custom_title=Contribution%20Orbit" width="100%" />
 
 </div>
 
 ---
 
+## `// 06 · TRAJECTORY`
+
 <div align="center">
 
-## 🔥 **Contribution Heatmap**
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/surajmeruva0786/surajmeruva0786/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/surajmeruva0786/surajmeruva0786/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/surajmeruva0786/surajmeruva0786/output/github-contribution-grid-snake-dark.svg" width="100%" alt="contribution snake" />
+</picture>
 
-<img src="https://ghchart.rshah.org/00D9FF/surajmeruva0786" alt="GitHub Contribution Chart" width="100%"/>
+<img src="https://ghchart.rshah.org/22D3EE/surajmeruva0786" alt="contribution heatmap" width="100%" />
 
 </div>
 
 ---
 
-<div align="center">
-
-## 🧪 **On Kaggle**
-
-I publish datasets & research notebooks — biomedical signals, network logs, deepfakes, and ML competitions like *Predicting the BPM of Songs*.
-
-[![Kaggle](https://img.shields.io/badge/Explore_my_Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/meruvakodandasuraj)
-
-</div>
-
----
+## `// 07 · UPLINK`
 
 <div align="center">
 
-## 💭 **Dev Wisdom**
+I publish datasets, research notebooks & ML-competition work on **Kaggle**, and I'm always up for a good problem in explainable / applied AI.
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="quote" />
 
-</div>
-
----
-
-<div align="center">
-
-## 📫 **Let's Connect & Build**
-
-**🟢 Open to:** AI/ML Research & SWE Internships · Open-Source Collaborations
-**📍 Location:** Naya Raipur, India
-**✉️ Email:** meruva24102@iiitnr.edu.in
-
 <p>
-  <a href="https://www.linkedin.com/in/suraj-meruva/">
-    <img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://www.kaggle.com/meruvakodandasuraj">
-    <img src="https://img.shields.io/badge/Kaggle-Follow-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
-  </a>
-  <a href="https://x.com/SurajMeruva786">
-    <img src="https://img.shields.io/badge/X-Follow-0D1117?style=for-the-badge&logo=x&logoColor=white" />
-  </a>
-  <a href="mailto:meruva24102@iiitnr.edu.in">
-    <img src="https://img.shields.io/badge/Gmail-Get_in_Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+  <a href="https://www.linkedin.com/in/suraj-meruva/"><img src="https://img.shields.io/badge/Let's_connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.kaggle.com/meruvakodandasuraj"><img src="https://img.shields.io/badge/Notebooks-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
+  <a href="mailto:meruva24102@iiitnr.edu.in"><img src="https://img.shields.io/badge/Reach_out-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 </div>
 
----
-
+<!-- ══════════════ ANIMATED FOOTER (hand-coded · light + dark) ══════════════ -->
 <div align="center">
-
-### 💡 *"Build AI that explains itself — research-grade, real-world, and shipped."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,60:0E7490,100:0B0E14&height=130&section=footer&animation=fadeIn" width="100%"/>
-
-<img src="https://img.shields.io/badge/Made_with-💙_%26_☕-00D9FF?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Status-Building_in_Public-success?style=for-the-badge" />
-
-**⭐️ From [Suraj Meruva](https://github.com/surajmeruva0786) — thanks for orbiting by! 🛰️**
-
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/surajmeruva0786/surajmeruva0786/main/assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/surajmeruva0786/surajmeruva0786/main/assets/footer-light.svg">
+  <img src="https://raw.githubusercontent.com/surajmeruva0786/surajmeruva0786/main/assets/footer-dark.svg" width="100%" alt="Let's build AI that explains itself">
+</picture>
 </div>
